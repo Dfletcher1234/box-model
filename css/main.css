@@ -9,4 +9,31 @@ strong {
 
 .box {
   background-color: tomato;
+  text-align: justify;
+  width: 300px;
+  height: 300px;
+  padding: 15px 10px 5px 30px;
+  border: 3px solid  #000000;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000000;
+
+  /**/change the def of height/width to include content as well as padding/border
+  box-sizing: content-box;
+
+  margin: 0px auto;
+  display: inline-block;
+
+
+}
+
+.menu li {
+  display: inline;
+  background-color: lime;
+  padding: 0 15px 0 15px;
+
+
+}
+
+
 }
